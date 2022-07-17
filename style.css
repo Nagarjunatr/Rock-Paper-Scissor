@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@1,900&family=Rubik:wght@400;500;600;700;800;900&display=swap');
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+} 
+:root{
+    --clr-primary: #6284FF ;  
+    --clr-secondary: #FF0000;
+}
+html{
+    font-size: 16px;
+}
+body{
+    color: #1c2042;
+    background-color: var(--clr-primary) ;
+ background-image: linear-gradient(180deg, #FFFFFF 0%, var(--clr-primary) 50%, var(--clr-secondary) 100%);
+ height: 100vh;
+ width: 100vw;
+ display: grid;
+ place-items: center;
+
+}
+.container{
+    width: 80%;
+    max-width: 30rem;
+    height: auto;
+    padding: 3rem 1.5rem;
+    background-color: rgb(251, 243, 234);
+    border-radius: 8px;
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.45);
+
+}
+.details{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 1rem;
+}
+
+.details .title{
+    text-align: left;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+.details .scores{
+    font-size: 1.25rem;
+    
+}
+.details .scores span{
+    font-weight: 900;
+    
+}
+.weapons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+.weapons button{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    background-color: var(--clr-primary);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.result{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+.result p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0.25rem auto;
+
+}
+.result p:last-child{
+    color:#FF0000;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
