@@ -15,7 +15,7 @@ html{
     font-size: 16px;
 }
 body{
-    color: #0000;
+    color: #1c2042;
     background-color: var(--clr-primary) ;
  background-image: linear-gradient(180deg, #FFFFFF 0%, var(--clr-primary) 50%, var(--clr-secondary) 100%);
  height: 100vh;
